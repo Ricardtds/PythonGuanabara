@@ -2,4 +2,4 @@
 # Considere US$1.00 = R$3.27
 
 reais = float(input('Quanto tu tem na carteira? R$'))
-print('Você consegue comprar ${:.2f} dólares com esse dinheiro'.format(reais/3.27))
+print('Você consegue comprar \033[32m${:.2f}\033[m dólares com esse dinheiro'.format(reais/3.27))

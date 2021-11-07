@@ -97,3 +97,62 @@
         Fusce sit amet urna odio. Morbi facilisis ante eu viverra scelerisque. 
         Vestibulum pellentesque velit leo, quis varius est ornare in. 
         Aliquam sollicitudin tempor varius. Vestibulum ornare at tellus. ''')
+
+> Condições
+
+    Com o else = estrutura composta, sem else = estrutura simples.
+    if condição:
+        do it
+        and it
+        also it
+    else:
+        do it
+        and it
+        also it
+    do it anyway
+
+    Condição Simplificada
+        print('txt1' if CONDIÇÃO else 'txt2')
+
+> Cores no Terminal
+
+    
+
+> Anotações extras
+
+    biblioteca time tem funções relacionadas ao tempo. Ex sleep
+    Utiliza a tabulação, identação para blocos.
+    Comentários de várias linhas:
+    ''' comentário
+        de várias
+        linhas '''
+
+> Cores no Python
+
+    MODULO: COLORIZE (usa cores hexadecimal)
+    padrão ANSI [escape sequence]
+
+    \033[style;text;backm
+    style
+        0 None
+        1 Bold
+        4 Underline
+        7 Negative
+    text
+        30 - branco
+        31 - vermelho
+        32 - verde
+        33 - amarelo
+        34 - azul
+        35 - magenta
+        36 - ciano
+        37 - cinza
+    back
+        40 - branco
+        41 - vermelho
+        42 - verde
+        43 - amarelo
+        44 - azul
+        45 - magenta
+        46 - ciano
+        47 - cinza 
