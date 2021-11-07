@@ -1,4 +1,6 @@
-# Curso Python Gustavo Guanabara
+# Curso Python Gustavo Guanabara 
+
+## Modulo 1
 
 > Tipos Primitivos
 
@@ -58,3 +60,40 @@
         + sqrt > raiz quadrada [item]
         + factorial > calculo de fatorial [item]
         
+> Manipulando Texto
+
+    Fatiamento
+        frase = 'Curso em Vídeo Python'
+        frase[x1:x2]
+        frase[x1:x2:step]
+    
+    Análise
+        len(frase) > tamanho da frase
+        frase.count('o') > conta a quantidade de letras o
+        frase.count('o',0,13) > conta a quantidade de letras o com fatiamento
+        frase.find('deo') > retorna a posição inicial
+        'Curso' in frase > retorna True or False
+        
+    Transformação
+        frase.replace('Python', 'Android') > Substitui o termo por outro.
+        frase.upper() > Coloca o texto em caixa alta
+        frase.lower() > Coloca o texto em caixa baixa
+        frase.capitalize() > Coloca o primeiro caracter  em maiusculo
+        frase.title() > Coloca a primeira letra de cada palavra em maiusculo.
+        frase2 = '   Aprenda Python   '
+        frase2.strip() > Remove os espaços em branco excedentes
+        frase2 = frase2.rstrip() > Remove os espaços da direita
+        frase2 = frase2.lstrip() > Remove os espaços da esquerda
+
+    Divisão
+        frase.split() > Separa as palavras.
+        'termo'.join(frase) > Trasforma o array de palavras em string 
+        separados pelo termo
+
+    Print Diversas Linhas
+        print('''Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Ut venenatis condimentum urna. Sed quam arcu, blandit nec semper non. 
+        Sed accumsan nec lectus sit amet consequat. Duis ultrices elementum 
+        Fusce sit amet urna odio. Morbi facilisis ante eu viverra scelerisque. 
+        Vestibulum pellentesque velit leo, quis varius est ornare in. 
+        Aliquam sollicitudin tempor varius. Vestibulum ornare at tellus. ''')
