@@ -156,3 +156,17 @@
         45 - magenta
         46 - ciano
         47 - cinza 
+
+## Modulo 2
+
+>   Condições Aninhadas
+
+    O Python aceita fazer x1 == x2 == x3
+    if condição:
+        bloco
+    elif condição:
+        bloco
+    elif condição:
+        bloco
+    else:
+        bloco
