@@ -170,3 +170,10 @@
         bloco
     else:
         bloco
+
+> Estrutura de repetição for
+
+    for x in range(t1, t2):
+        print(x)
+    for x in range(t1, t2, passo):
+        print(x)
