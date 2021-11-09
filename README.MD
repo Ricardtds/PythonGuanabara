@@ -171,7 +171,7 @@
     else:
         bloco
 
-> Estrutura de repetição for
+> Estrutura de repetição for (Com variável de controle)
 
     for x in range(t1, t2):
         print(x)
