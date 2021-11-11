@@ -15,8 +15,8 @@ while True:
         if idade >= 0:
             break
     while True:
-        sexo = str(input('Digite o seu sexo [F/M]: ')).strip().lower()
-        if sexo == 'f' or sexo == 'm':
+        sexo = str(input('Digite o seu sexo [F/M]: ')).strip().lower()[0]
+        if sexo in 'mf':
             break
     if idade > 18:
         contadormaiores += 1
@@ -26,8 +26,8 @@ while True:
         mulheresjovens += 1
 
     while True:
-        continuar = str(input('Deseja cadastrar alguém [S/N]: ')).strip().lower()
-        if continuar == 's' or continuar == 'n':
+        continuar = str(input('Deseja cadastrar alguém [S/N]: ')).strip().lower()[0]
+        if continuar in 'sn':
             break
     if continuar == 'n':
         break

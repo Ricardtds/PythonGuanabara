@@ -26,7 +26,7 @@ while True:
         produtoscaros += 1
 
     while True:
-        continuar = str(input('Deseja continuar? [S/N]: ')).strip().lower()
+        continuar = str(input('Deseja continuar? [S/N]: ')).strip().lower()[0]
         if continuar == 's' or continuar == 'n':
             break
     if continuar == 'n':

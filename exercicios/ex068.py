@@ -1,12 +1,13 @@
 # Faça um programa que jogue par ou ímpar com o computador. O jogo só será inteerrompido quando o jogador Perder,
 # mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
 from random import randint
-
-jogada = ''
 vitorias = 0
 while True:
-    numero_pc = randint(0, 1)
-    opcao_jogador = str(input('Digite par ou impar: ')).strip().lower()
+    numero_pc = randint(0, 10)
+    while True:
+        opcao_jogador = str(input('Digite par ou impar: ')).strip().lower()
+        if opcao_jogador == 'par' or opcao_jogador == 'impar':
+            break
     numero_jogador = int(input('Digite um número inteiro: '))
     if (numero_pc + numero_jogador) % 2 == 0:
         if opcao_jogador == 'par':
