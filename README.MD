@@ -183,3 +183,18 @@
     while condição:
         # Editar condição para evitar loop infinito!
         Bloco
+
+> Interrompendo repetições while
+
+    while True:
+        if condição1:
+            bloco1
+        if condição2:
+            bloco2
+            break
+
+> Prints das diferentes versões python
+
+    print(f'A soma vale {s}') # PYTHON 3.6+
+    print('A soma vale {}'.format(s))  # PYTHON 3
+    print('A soma vale %d' % s)  # PYTHON 2
