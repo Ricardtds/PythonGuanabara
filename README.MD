@@ -177,3 +177,9 @@
         print(x)
     for x in range(t1, t2, passo):
         print(x)
+
+> Estrutura de repeticã́o while (Com teste lógico)
+
+    while condição:
+        # Editar condição para evitar loop infinito!
+        Bloco
