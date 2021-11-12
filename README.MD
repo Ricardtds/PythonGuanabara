@@ -198,3 +198,25 @@
     print(f'A soma vale {s}') # PYTHON 3.6+
     print('A soma vale {}'.format(s))  # PYTHON 3
     print('A soma vale %d' % s)  # PYTHON 2
+
+## Modulo 3
+
+> Variáveis Compostas(Tuplas) em Python
+
+    "As tuplas são imutáveis, mas pode ser apagada por inteira"
+    tupla = (a1, a2, a3, 'a4', 'a5')
+
+    for x in tupla:
+        print(x)
+
+    for x in range(len(tupla)):
+        print(f'[{x}] {tupla[x]}'))
+
+    for pos, item in enumerate(tupla):
+        print(f'[{pos}] {item}')
+
+    print(sorted(tupla)) # Mostra o lanche em ordem, mas não muda a cfg dele
+
+    print(tupla.index(busca,posinit))
+    print(tupla.count(busca))
+    del(tupla)
