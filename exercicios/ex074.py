@@ -3,23 +3,18 @@
 # Depois disso mostre a listagem de números gerados e também indique o menor e maior valor que estão na tupla.
 
 from random import randint
-
-n1 = randint(0, 10)
-n2 = randint(0, 10)
-n3 = randint(0, 10)
-n4 = randint(0, 10)
-n5 = randint(0, 10)
-maior = menor = n1
-print(n1, n2, n3, n4, n5)
-
-numeros = (n1, n2, n3, n4, n5)
-print(numeros)
+numeros = (randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10))
+maior = menor = numeros[0]
+print('Os valore sorteados foram: ', end='')
 
 for x in numeros:
+    print(x, end=' ')
     if maior < x:
         maior = x
     if menor > x:
         menor = x
-
-print(maior)
-print(menor)
+print()
+print(f'O maior número da função max foi: {max(numeros)}')
+print(f'O menor número da função min foi: {min(numeros)}')
+print(f'O maior número do loop foi: {maior}')
+print(f'O menor número do loop foi: {menor}')

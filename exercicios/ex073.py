@@ -9,11 +9,11 @@
 
 # Em que posição na tabela está o time da chapecoense.
 
-tabela = ('Atlético Mineiro', 'Palmeiras', 'Flamengo', 'Fortaleza', 'Bragantino', 'Corinthians', 'Internacional',
+tabelabrasileirao = ('Atlético Mineiro', 'Palmeiras', 'Flamengo', 'Fortaleza', 'Bragantino', 'Corinthians', 'Internacional',
           'Fluminense', 'Athletico-PR', 'América-MG', 'Cuiabá', 'Ceará', 'Santos', 'São Paulo', 'Atlético Goiano',
           'Bahia', 'Juventude', 'Sport Recife', 'Grêmio', 'Chapecoense')
 
-print(tabela[:5])
-print(tabela[-4::1])
-print(sorted(tabela))
-print(tabela.index("Chapecoense"))
+print(f'Os 5 primeiros {tabelabrasileirao[:5]}')
+print(f'Os 4 últimos {tabelabrasileirao[-4::1]}')
+print(f'Tabela Organizda: {sorted(tabelabrasileirao)}')
+print(f'O chapecoense está na posição {tabelabrasileirao.index("Chapecoense") + 1}')
