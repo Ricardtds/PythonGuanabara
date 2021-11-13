@@ -220,3 +220,31 @@
     print(tupla.index(busca,posinit))
     print(tupla.count(busca))
     del(tupla)
+
+> Variáveis Compostas(Listas) em Python
+
+    lanche = [item1, item2, item3] # cria lista
+    lanche.append(item) # insere item no final
+    lanche.insert(pos, item) # insere item na pos
+    del lanche[pos] # remove item
+    lanche.pop(pos) # remove item, sem o >pos< remove o último elemento
+    lanche.remove(item) # remove item pelo valor, apenas a primeira ocorrência
+    if item in lanche: # verifica se o item está na lista
+    valores = list(range(x1, x1))
+    lista.sort() # Coloca os items em ordem
+    lista.sort(reverse=True) # Coloca os items em ordem inversa
+    len(lista) # Pega o tamanho da lista
+    del lista # Deleta a lista
+    for x in lista:
+        print(x)
+    for pos, item in enumerate(lista):
+        print(pos, item)
+    
+    IMPORTANTE:
+    a = [2, 3, 4, 7]
+    b = a[:] # Faz uma cópia da lista a
+    c = a    # Faz uma ligação a lista a, c está referenciando a
+
+> Variáveis Compostas(Listas) em Python Parte 2
+
+    
