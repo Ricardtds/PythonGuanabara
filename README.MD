@@ -245,6 +245,6 @@
     b = a[:] # Faz uma cópia da lista a
     c = a    # Faz uma ligação a lista a, c está referenciando a
 
-> Variáveis Compostas(Listas) em Python Parte 2
+> Variáveis Compostas(Dicionários) em Python
 
     
