@@ -31,3 +31,20 @@ for pos, item in enumerate(lista):
     print(f'    {pos+1}o lugar: O {item["Nome"]} com {item["Dado"]}')
     sleep(1)
 
+
+jogo = {
+    'jogador0': randint(1, 6),
+    'jogador1': randint(1, 6),
+    'jogador2': randint(1, 6),
+    'jogador3': randint(1, 6)
+}
+print(jogo)
+for c in range(len(jogo)-1):
+    for k in range(len(jogo)-1-c):
+        if jogo[f'jogador{k}'] > jogo[f'jogador{k+1}']:
+            aux = jogo[f'jogador{k}']
+            jogo[f'jogador{k}'] = jogo[f'jogador{k+1}']
+            jogo[f'jogador{k+1}'] = aux
+
+
+print(jogo)
