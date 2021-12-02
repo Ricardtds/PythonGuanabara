@@ -245,6 +245,21 @@
     b = a[:] # Faz uma cópia da lista a
     c = a    # Faz uma ligação a lista a, c está referenciando a
 
-> Variáveis Compostas(Listas) em Python Parte 2
+> Dicionários em Python
 
-    
+    item = {'chave':valor}
+    item['chave'] = valor
+    del item['chave']
+    item.values()
+    item.keys()
+    item.items()
+    for k, v in item.items():
+        print(f'O {k} é {v}')
+    estado = dict()
+
+    brasil = list()
+    for c in range(3):
+        estado['uf'] = str(input('Unidade federativa: '))
+        estado['sigla'] = str(input('Sigla do estado: '))
+        brasil.append(estado.copy())
+    print(brasil)
