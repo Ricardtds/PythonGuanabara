@@ -210,7 +210,7 @@
         print(x)
 
     for x in range(len(tupla)):
-        print(f'[{x}] {tupla[x]}'))
+        print(f'[{x}] {tupla[x]}')
 
     for pos, item in enumerate(tupla):
         print(f'[{pos}] {item}')
